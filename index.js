@@ -37,5 +37,5 @@ server.get("/manufacturers", checkAuth, ManufacturersController.getAllManufactur
 
 server.use(router);
 server.listen(3001, () => {
-  console.log("server start");
+  console.log("server start on http://localhost:3001");
 });
